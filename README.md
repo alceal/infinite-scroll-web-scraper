@@ -1,12 +1,29 @@
 # Infinite Scroll Web Scraper
 
-<p align="center">
-    <a href="https://pre-commit.com"><img alt="pre-commit" src="https://img.shields.io/badge/Pre--commit-enabled-brightgreen?logo=pre-commit"></a>
-    <a href="https://prettier.io"><img alt="prettier" src="https://img.shields.io/badge/Code_style-prettier-ff69b4.svg"></a>
-</p>
+## Introduction
 
-> An implementation of a web scraper capable of extracting information from a webpage with infinite scroll functionality
+The Infinite Scroll Web Scraper showcases Rust's web scraping capabilities. This project highlights my proficiency in Rust development by implementing a web scraper capable of extracting information from a webpage with infinite scroll functionality and displaying it in the terminal.
 
-## Version Control System diagram
+## Dependencies
 
-![Version Control System diagram](https://images.prismic.io/clubhouse/e02ba62c-26e6-4250-acff-1b2c93ecc789_image-32.png?auto=format%2Ccompress&rect=0%2C0%2C905%2C379&w=756&h=317&fit=max&q=50)
+This project utilizes the following crates from crates.io:
+
+- `reqwest`: Facilitates making HTTP requests.
+- `scraper`: A tool for parsing HTML content.
+
+## Installation
+
+To utilize the Infinite Scroll Web Scraper, follow these installation steps:
+
+```bash
+git clone <https://github.com/yourusername/infinite-scroll-web-scraper.git>
+cd infinite-scroll-web-scraper
+```
+
+## Usage
+
+The Infinite Scroll Web Scraper is designed to extract product names and prices from a webpage featuring infinite scroll. Running the scraper will display this information in the terminal.
+
+```bash
+cargo run
+```
